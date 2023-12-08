@@ -18,3 +18,5 @@ doc/src/commands/apidoc*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
+sat-env/*

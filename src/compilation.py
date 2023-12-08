@@ -484,6 +484,8 @@ CC=\\"hack_libtool\\"%g" libtool'''
         else :
             make_options = "-j%s" % nb_proc
 
+        script = script.replace("\\", "/")
+
         self.log_command("  " + _("Run build script %s\n") % script)
         self.complete_environment(make_options)
         
